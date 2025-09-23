@@ -3,7 +3,7 @@ on: push
 
 jops:
    lamine:
-       runs-on: ubuntu-latest
-        steps:
-            - name: Primera accion
-            run: echo "Hola mundo"
+      runs-on: ubuntu-latest
+      steps:
+        - name: Primera accion
+          run: echo "Hola mundo"
