@@ -5,9 +5,11 @@ on:
     branches:
       - main
 
-jops:
+jobs:
    lamine:
       runs-on: ubuntu-latest
       steps:
         - name: Primera accion
           run: echo "Hola mundo"
+        - name: Setup Java JDK
+          uses: actions/setup-java@v5.0.0
