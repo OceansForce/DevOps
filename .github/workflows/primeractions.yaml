@@ -1,5 +1,9 @@
 name: miprimeracion
-on: push 
+
+on: 
+  push:
+    branches:
+      - main
 
 jops:
    lamine:
