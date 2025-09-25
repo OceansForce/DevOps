@@ -18,4 +18,5 @@ jobs:
             java-version: '17'
             distribution: 'temurin'
         - name: Test
-          run: mvn -B test --file Test/sumar/src/test/java/com/ejemplo/TestCalculadora.java
+          #run: mvn -B test --file Test/sumar/src/test/java/com/ejemplo/TestCalculadora.java
+          run: mvn test
