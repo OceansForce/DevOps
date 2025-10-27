@@ -1,0 +1,8 @@
+target
+.mvn
+.git
+logs
+*.log
+*.tmp
+*.swp
+Dockerfile
