@@ -1,0 +1,10 @@
+name: DokerHub Continuous Deployment
+on:
+  push:
+
+jobs:
+    secrets:
+        runs-on: ubuntu-latest
+        steps:
+            - name: DockerHub Login
+              run: echo ${{ secrets.DOCKERHUB_USER }}  
