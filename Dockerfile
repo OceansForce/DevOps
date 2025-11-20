@@ -11,7 +11,7 @@
 FROM eclipse-temurin:17-jre-jammy
 
 # Copy the built jar from the build stage
-COPY Nueva_carpeta/demo/target/demo-0.0.1-SNAPSHOT.jar demo.jar .
+COPY Nueva_carpeta/practica-cloud-java-2022-2023/target/practica-0.0.1-SNAPSHOT demo.jar .
 
 EXPOSE 8082
 
