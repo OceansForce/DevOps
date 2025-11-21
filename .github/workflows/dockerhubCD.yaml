@@ -12,11 +12,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-      - name: Build Java artifact
-        working-directory: ./Nueva_carpeta/demo
-        run: |
-          chmod +x mvnw || true
-          ./mvnw -DskipTests clean package
       - name: Build and push
         uses: docker/build-push-action@v6.18.0
         with:
