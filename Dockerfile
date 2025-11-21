@@ -11,7 +11,7 @@
 FROM eclipse-temurin:17-jre-jammy
 
 # Copy the built jar from the build stage
-COPY Nueva_carpeta/demo/target/demo-0.0.1-SNAPSHOT.jar demo.jar .
+COPY ./Nueva_carpeta/demo/target/demo-0.0.1-SNAPSHOT.jar demo.jar .
 
 EXPOSE 8082
 
